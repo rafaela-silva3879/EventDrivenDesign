@@ -1,0 +1,36 @@
+{
+  "dataHora": "2023-07-27T13:09:17.997Z",
+  "valor": 100, 
+  "protocoloPagamento": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "detalhesPagamento": "string",
+  "cliente": {
+    "nome": "Fulano de Tal",
+    "email": "fulano@example.com",
+    "cpf": "123.456.789-00"
+  },
+  "endereco": {
+    "logradouro": "Rua Principal, 123",
+    "complemento": "Apartamento 4",
+    "numero": "123",
+    "bairro": "Centro",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "cep": "01234-567"
+  },
+  "cobranca": {
+    "numeroCartao": "1234 5678 9012 3456",
+    "nomeImpressoNoCartao": "FULANO DE TAL",
+    "mesValidade": 12,
+    "anoValidade": 25,
+    "codigoSeguranca": 123,
+    "valorCobranca": 100 
+  },
+  "itens": [
+    {
+      "codigoItem": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "nome": "Produto 1",
+      "preco": 50, 
+      "quantidade": 2 
+    }
+  ]
+}
