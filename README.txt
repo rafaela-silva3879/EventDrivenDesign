@@ -21,4 +21,5 @@ A API também utiliza o Entity Framework Code First para o gerenciamento de banc
 6. Dê um click da direita no projeto Infra.Data e clique em "Set as startup Project". 
 7- Abra o Package Manager Console em default Project, escolha o projeto Infra-Data e execute o comando Add-Migration e depois Update-Database para criar as tabelas no banco de dados
 8- Clique da direita no projeto Services, "Set as startup project"
+9- Crie uma fila no https://www.cloudamqp.com/ com o nome de "pedidos" e cole a url da fila no appsetting.json, em MessageBrokerSettings / url
 9. Execute a aplicação
