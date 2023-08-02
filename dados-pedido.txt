@@ -2,7 +2,7 @@
   "dataHora": "2023-07-27T13:09:17.997Z",
   "valor": 100, 
   "protocoloPagamento": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "detalhesPagamento": "string",
+  "detalhesPagamento": "teste detalhes",
   "cliente": {
     "nome": "Fulano de Tal",
     "email": "fulano@example.com",
